@@ -17,3 +17,6 @@ Before conducting A B testing they are necessary to define following key points:
  - MDE (minimum detectable effect) is the smallest effect that would matter in practice for the business and is usually set by stakeholders. I will set MDE is equal 100.
  - sample size. Minimum sample size of the control and experimental groups is based on defined by yourself parameters:  power, alpha, MDE, and the variances of the two Normally Distributed samples of equal size. And also calculation a sample size depends on underlying metric that we will be track. In my case is difference of means. Then we can use the Central Limit Theorem and state that the mean sampling distribution of both Control and Experimental Groups follow Normal Distribution. Consequently, the sampling distributions of difference of means of these two groups also follow Normal Distribution.
  - сhoosing an appropriate statistical test. I will be use 2 sample t-test and bootstrap method. Important point regarding the 2 sample t-test is following assumptions must be met: users in control and experimental groups are independent, p-values should be uniformly distributed under true null hypothesis(AA test), target metric should be normal distribututed according to Central Limit Theorem(i will define this with bootstrap).
+
+
+## Let's dive into my work in more detail )
