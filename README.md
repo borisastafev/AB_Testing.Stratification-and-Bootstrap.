@@ -3,7 +3,7 @@ i will generate data about purchases and also data label with category of client
 
 The main goal of my work - show how can increase the test power with reducing a variance in two groups is based on additional information about our data. Additional information in my case is average and weight of each group. This way of increasing power of test is named stratification.
 
-Design:
+# Design:
 Before conductiong AB testing they are nessesary to define following key points:
  - alpha or I type error. Alpha is probability of rejectiong H0 while Ho is true. I will set alpha is equal 0.05
  - beta or II type error. Beta is probability of rejectiong H1 while it is true. Usually II type error have more serious consequences for business. 
