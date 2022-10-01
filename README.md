@@ -1,5 +1,5 @@
 # The essence of the work
-The main goal of my work - show how can increase the test power with reducing a variance in two groups is based on additional information about our data. Additional information in my case is average and weight of each group. This way of increasing power of test is named stratification.
+The main goal of my work - show how can increase the test power with reducing a variance in two groups is based on additional information about our data. Additional information in my case is average and weight of each group. This way of increasing power of test using splitting to control and experimental groups given weight and average each groups is named stratification.
 Also i will show bootstrap method that allow estimate a statistic we need (difference of means) and build for her confidence interval.
 
 # About data:
